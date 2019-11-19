@@ -1,0 +1,16 @@
+{
+  "SoftwareList" : {
+      "GIT": {
+        "path" : "inatallationFiles\\git.exe",
+        "arguments" : "\/VERYSILENT \/SUPPRESSMSGBOXES \/COMPONENTS=\\'icons,ext\\reg\\shellhere,assoc,assoc_sh\\'"
+      },
+      "Notepad++" : {
+        "path" : "inatallationFiles\\npp.7.8.Installer.x64.exe",
+        "arguments" : "\/S /noUpdater -Verb RunAs"
+      },
+      "VisualStudioCode" : {
+        "path" : "inatallationFiles\\VSCodeSetup-x64-1.39.2.exe",
+        "arguments" : "/VERYSILENT /NORESTART /MERGETASKS=!runcode"
+      }
+  }
+}
